@@ -24,6 +24,7 @@ Once you have done that we will have to load those features in a proper split to
 $ python train_denoiser.py
 ```
 And it will generate: 
+
 ![alt text](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/train_denoiser.png)
 
 To check that the model performs good you can execute: 
