@@ -14,11 +14,16 @@ Once you have cloned the repository you will need to extract the features from t
 ```
 $ python3 build_features.py
 ```
+It will generate the following output: 
+![alt text](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/extract_features.png)
+
 Once you have done that we will have to load those features in a proper split to train our Random Forest Regressor. That code is implemented in the file train_denoiser.py. To train the model you will have to run the command:
 
 ```
 $ python train_denoiser.py
 ```
+And it will generate: 
+![alt text] (https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/train_denoiser.png)
 
 To check that the model performs good you can execute: 
 ```
@@ -26,5 +31,9 @@ $ python3 denoise_document.py --testing denoising-dirty-documents/test
 ```
 
 And some images will be written in disk so you can check the original image and the image obtained by the model we just have trained. 
+
+Two example images: 
+![Original image](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/Original_0.jpg)
+![Predicted image](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/Output_0.png)
 
 Any doubts or suggestions please open an issue. 
