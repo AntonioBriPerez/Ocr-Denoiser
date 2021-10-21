@@ -15,6 +15,7 @@ Once you have cloned the repository you will need to extract the features from t
 $ python3 build_features.py
 ```
 It will generate the following output: 
+
 ![alt text](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/extract_features.png)
 
 Once you have done that we will have to load those features in a proper split to train our Random Forest Regressor. That code is implemented in the file train_denoiser.py. To train the model you will have to run the command:
