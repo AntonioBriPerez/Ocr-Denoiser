@@ -34,6 +34,7 @@ And some images will be written in disk so you can check the original image and 
 
 Two example images: 
 ![Original image](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/Original_0.jpg)
+
 ![Predicted image](https://github.com/AntonioBriPerez/Ocr-Denoiser/blob/main/readme_images/Output_0.jpg)
 
 Any doubts or suggestions please open an issue. 
